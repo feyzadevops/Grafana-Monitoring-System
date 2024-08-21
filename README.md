@@ -23,12 +23,12 @@
    
 4. **Create Grafana Deployment and Service:**
    ```bash
-    kubectl apply -f grafana-deployment.yaml
+    kubectl apply -f grafana.yaml
     ```
    
 5. **Create Prometheus Deployment and Service:**
    ```bash
-   kubectl apply -f prometheus-deployment.yaml
+   kubectl apply -f prometheus.yaml
    ```
    
 6. **Create Node Exporter Deployment and Service:**
@@ -38,7 +38,7 @@
    
 7. **Create Alertmanager Deployment and Service:**
    ```bash
-   kubectl apply -f alertmanager-deployment.yaml
+   kubectl apply -f alertmanager.yaml
    ```
 
 ## Verify the Results
